@@ -10,7 +10,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
@@ -24,15 +24,11 @@
         <activity
             android:name=".TabActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".SlidingTabActivity"
-            android:label="@string/app_name"
-           />
-        <activity
-            android:name=".AztuetzActivity"
-            android:label="@string/app_name"
-            />
+            android:screenOrientation="portrait" />
+        <activity android:name=".SlidingTabActivity" />
+        <activity android:name=".AztuetzActivity" />
+        <activity android:name=".SmartTabLayoutActivity" />
+
     </application>
 
 </manifest>

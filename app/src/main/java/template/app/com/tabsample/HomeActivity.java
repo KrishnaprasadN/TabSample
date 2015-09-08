@@ -50,6 +50,15 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(new Intent(HomeActivity.this, AztuetzActivity.class));
             }
         });
+
+        Button smartTabLayout = (Button) findViewById(R.id.smart_tab_layout);
+        smartTabLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this, SmartTabLayoutActivity.class));
+            }
+        });
+
     }
 
     @Override
